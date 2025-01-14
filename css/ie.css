@@ -1,0 +1,39 @@
+
+@import url(//fonts.googleapis.com/css?family=Ubuntu:700);
+@import url(//fonts.googleapis.com/css?family=Ubuntu:400);
+
+
+.ban1 figure img, 
+.page1_img, 
+.page1_img img,
+.img_inner, 
+.block2 .count, 
+.div-tabs, 
+.blog time, 
+img.i1,
+a.gal img
+{
+	behavior: url(js/PIE.htc);
+	position: relative;
+}
+
+
+.nav li.selected a {
+	color: #0cc6db;
+}
+
+
+
+
+#form .invalid .error-message, #form .empty .empty-message {
+	display: block;
+}
+
+#form .error-message, #form .empty-message {
+	display: none;
+}
+
+
+.socials a:hover {
+ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);	
+}
